@@ -1,0 +1,58 @@
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+#wrapper {
+  display: flex;
+  margin: auto;
+}
+#board {
+  margin: auto;
+  border: 5px solid #525252;
+  margin-top: 50px;
+  white-space: nowrap;
+}
+.grid {
+  border: 1px solid #525252;
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  visibility: hidden;
+}
+.head {
+  background-color:#18A89A;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  visibility: visible;
+}
+.tail {
+  background-color: #74FCEF;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  visibility: visible;
+}
+.apple {
+  background-color: #F77C88;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  visibility: visible;
+}
+.rock {
+  background-color: grey;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  visibility: visible;
+}
+.hide {
+  display: none;
+}
